@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Right Now</title>
-  </head>
-  <body>
 
-    <h1>Right Now</h1>
+<head>
+  <title>Right Now</title>
+</head>
 
-    <!--
+<body>
+  <h1>Right Now</h1>
+  <!--
     Right now,
     Hey, it's your tomorrow
     Right now,
@@ -17,13 +17,19 @@
     Right here and now
     It means everything
     -->
+  <section class="new-message">
+    <input type="text" id="username" placeholder="username">
+    <input type="text" id="message-text" placeholder="your message here">
+    <button id="submit-message">SUBMIT</button>
+  </section>
 
-    <section class="messages">
-    </section>
+  <section class="messages">
 
-    <script src="/jquery.js"></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/application.js"></script>
+  </section>
+  
+  <script src="/jquery.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/application.js"></script>
+</body>
 
-  </body>
 </html>
